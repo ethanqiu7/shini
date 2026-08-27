@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patent Drafting Skill Pack</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      color: #333;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    .header {
+      text-align: center;
+      color: white;
+      margin-bottom: 50px;
+    }
+    .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    .header p { font-size: 1.1em; opacity: 0.9; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h2 { color: #1e3c72; font-size: 1.5em; margin-bottom: 10px; }
+    .price { font-size: 3em; color: #2a5298; font-weight: bold; margin: 15px 0; }
+    .price span { font-size: 0.4em; color: #888; }
+    .features { list-style: none; margin: 20px 0; text-align: left; }
+    .features li { padding: 8px 0; border-bottom: 1px solid #eee; color: #555; }
+    .features li:before { content: "✓ "; color: #2a5298; font-weight: bold; }
+    .paypal-button-container { margin-top: 25px; }
+    .footer {
+      text-align: center;
+      color: white;
+      opacity: 0.8;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+    .footer a { color: white; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📜 Patent Drafting Skill Pack</h1>
+      <p>Professional China patent drafting templates, guides & toolkits</p>
+      <p>Delivered digitally · Instant download · USD pricing</p>
+    </div>
+
+    <div class="products">
+      <!-- $49 Starter -->
+      <div class="card">
+        <h2>Starter Pack</h2>
+        <div class="price">$49<span> USD</span></div>
+        <ul class="features">
+          <li>Patent claim drafting template (Word)</li>
+          <li>Specification structure guide</li>
+          <li>5 real China patent examples</li>
+          <li>Email support</li>
+        </ul>
+        <div class="paypal-button-container" id="paypal-btn-49">
+          <!-- BEGIN: PayPal 按钮代码 $49 -->
+          
+          <!-- END: PayPal 按钮代码 $49 -->
+        </div>
+      </div>
+
+      <!-- $99 Pro -->
+      <div class="card">
+        <h2>Pro Pack</h2>
+        <div class="price">$99<span> USD</span></div>
+        <ul class="features">
+          <li>Everything in Starter, plus:</li>
+          <li>Full patent drafting toolkit (20+ templates)</li>
+          <li>Office action response templates</li>
+          <li>CNIPA filing walkthrough video</li>
+          <li>Priority email & chat support</li>
+        </ul>
+        <div class="paypal-button-container" id="paypal-btn-99">
+          <!-- BEGIN: PayPal 按钮代码 $99 -->
+          
+          <!-- END: PayPal 按钮代码 $99 -->
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 Patent Drafting Skill Pack · Contact: your-email@example.com</p>
+      <p>Payments processed securely by PayPal</p>
+    </div>
+  </div>
+</body>
+</html>
